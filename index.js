@@ -62,11 +62,11 @@ const scrollContainer = document.querySelector(".course-wrapper");
 const leftArrow = document.querySelector(".left-arrow");
 const rightArrow = document.querySelector(".right-arrow");
 
-scrollContainer.addEventListener("wheel", (e) => {
-  e.preventDefault();
-  const delta = e.deltaY;
-  smoothScroll(scrollContainer, delta > 0 ? 320 : -320, 300); // Adjust duration (300ms) as needed
-});
+// scrollContainer.addEventListener("wheel", (e) => {
+//   e.preventDefault();
+//   const delta = e.deltaY;
+//   smoothScroll(scrollContainer, delta > 0 ? 320 : -320, 300); // Adjust duration (300ms) as needed
+// });
 
 leftArrow.addEventListener("click", () => {
   smoothScroll(scrollContainer, -300, 300); // Adjust duration (300ms) as needed
@@ -96,20 +96,19 @@ function smoothScroll(element, distance, duration) {
 // contact
 function CreateContact(url, heading, heading_child) {
   let html2 = `
-  <div class="contact-wrapper">
-  <div class="contact-card">
-      <div class="contact-img">
-          <img src="${url}" alt>
-      </div>
-      <div class="contact-desc">
-          <p>${heading}</p>
-          <p>${heading_child}</p>
-
-      </div>
+  <div class="overview-card">
+  <div class="overview-img">
+      <img src="${url}" alt>
   </div>
+  <div class="overview-desc">
+      <p>${heading}</p>
+      <p>${heading_child}</p>
+
+  </div>
+</div>
 
 `;
-  document.querySelector(".contact-wrapper").innerHTML += html2;
+  document.querySelector(".overview-wrapper").innerHTML += html2;
 }
 CreateContact(
   "/learn.png",
