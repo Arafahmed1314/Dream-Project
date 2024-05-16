@@ -1,0 +1,151 @@
+@media screen and (max-width: 1242px) {
+.bras{
+    display:block;
+}
+.nav-list-parent{
+    display: none;
+}
+.res-menu{
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    transition: all 0.5s ease-in-out;
+}
+
+.lists{
+    font-size: 14px;
+    padding: 10px;
+}
+.nav-inner-container{
+    justify-content: space-around;
+    position: relative;
+}
+.nav-left{
+ flex: 0.7;
+}
+.bras{
+    flex: 0.1;
+    font-size: 1.6rem;
+}
+.container{
+    height: fit-content;
+}
+.middle-container{
+    display: none;
+}
+.outer-nav-container{
+    /* flex-direction: column; */
+    margin-top: 7rem;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.left-out-container-para{
+text-align: justify;
+margin-bottom: 1rem;
+}
+.buttons{
+    text-align: center;
+    display: flex;
+}
+.buttons .registration{
+    width: 120px;
+}
+.right-outer-container img{
+    width: 320px;
+    height: 320px;
+}
+.outer-nav-container h1{
+    font-size: 2rem;
+}
+.fa-arrow-left{
+font-size: 1.4rem;
+left: 10px;
+  }
+  .fa-arrow-right{
+    font-size: 1.4rem;
+    right: 10px;
+      }
+
+
+footer{
+padding: 10px;
+    margin-top: 15rem;
+}
+
+
+    }
+
+  @media screen and (max-width: 850px) {
+    .container{
+        height: fit-content;
+        /* padding: 6rem; */
+
+    }
+    .contact-wrapper{
+        flex-direction: column;
+    }
+    .contact-wrapper p{
+        width: 75%;
+
+    }
+    .contact_first_para{
+        width: 80%;
+    }
+
+    .course-wrapper{
+    overflow-y: auto;
+    }
+    #courses{
+        height: fit-content;
+margin-top: 7rem;
+margin-bottom: 5rem;
+    }
+    .right-outer-container img{
+        width: 320px;
+        height: 320px;
+    }
+    .outer-nav-container{
+        margin-top: 8rem;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .outer-nav-container h1{
+        font-size: 2rem;
+    }
+    .course-wrapper{
+        flex-direction: column;
+    }
+    .left-arrow,.right-arrow{
+        display: none;
+    }
+    .course-card{
+        margin: 1rem 0;
+        flex: 0 0 45%;
+
+    }
+    #contact{
+        height: fit-content;
+        padding: 10px;
+
+    }
+    footer{
+        padding: 10px;
+            margin-top: 1rem;
+        }
+
+
+  }
+  @media screen and (max-width: 600px) {
+.nav-search{
+ width: 250px;
+
+}
+.nav-left{
+    padding-right: 1rem;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+  }
