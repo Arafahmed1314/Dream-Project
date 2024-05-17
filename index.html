@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dream</title>
+        <!-- Swiper Link  -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -102,40 +105,123 @@
                 </div>
             </div>
         </section>
-
-        <section id="courses">
-            <div class="left-arrow">
-                <i class="fa-solid fa-arrow-left"></i>
-            </div>
-            <div class="section-heading">
-                <h1>See what you can learn with Afak</h1>
-            </div>
-
-            <div class="course-container">
-                <div class="course-wrapper">
-                    <!-- <div class="course-card">
-                        <div class="course-img">
-                            <img src="cse.avif" alt>
+        <div id="courses">
+            <h1 class="heading">All Courses We Offer</h1>
+            <div class="slide-container swiper ">
+                <div class="slide-content mySwiper">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="cse.avif" alt>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">CSE</h2>
+                                <p class="description">Lorem ipsum dolor sit
+                                    amet
+                                    consectetur
+                                    adipisicing elit. A, pariatur.</p>
+                                <button class="button">View More</button>
+                            </div>
                         </div>
-                        <div class="course-desc">
-                            <h1>CSE</h1>
-                            <p>Unlock the future with our cutting-edge Computer
-                                Science and Engineering courses, tailored to
-                                empower you in the digital age</p>
-                            <button class="course-btn">Explore</button>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="algorithm.avif"
+                                        alt>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">ALGORITHM</h2>
+                                <p class="description">Lorem ipsum dolor sit
+                                    amet
+                                    consectetur
+                                    adipisicing elit. A, pariatur.</p>
+                                <button class="button">View More</button>
+                            </div>
                         </div>
-                    </div> -->
-
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="chem.avif" alt>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">CHEMISTRY</h2>
+                                <p class="description">Lorem ipsum dolor sit
+                                    amet
+                                    consectetur
+                                    adipisicing elit. A, pariatur.</p>
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="english.avif"
+                                        alt>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">ENGLISH</h2>
+                                <p class="description">Lorem ipsum dolor sit
+                                    amet
+                                    consectetur
+                                    adipisicing elit. A, pariatur.</p>
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="phy.avif" alt>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">PHYSICS</h2>
+                                <p class="description">Lorem ipsum dolor sit
+                                    amet
+                                    consectetur
+                                    adipisicing elit. A, pariatur.</p>
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="math.avif" alt>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">MATH</h2>
+                                <p class="description">Lorem ipsum dolor sit
+                                    amet
+                                    consectetur
+                                    adipisicing elit. A, pariatur.</p>
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="right-arrow">
-                <i class="fa-solid fa-arrow-right"></i>
-            </div>
-        </section>
+        </div>
 
         <footer>
             <p>&copy; We built this website for Student</p>
         </footer>
+        <!-- Swiper js -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="index.js"></script>
     </body>
 
